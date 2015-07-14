@@ -2,12 +2,12 @@
 
 int main(void){
     int a,b;
-    printf("Input a,b(positive integers): ")
+    printf("Input a,b(positive integers): ");
     scanf("%d %d", &a,&b);
 
 while(a<0||b<0||b>10^9){
-    printf("Error: The initial a,b do not satisfy restrictions.\n")
-    printf("Error: Input a,b(positive integers) again: ")
+    printf("Error: The initial a,b do not satisfy restrictions.\n");
+    printf("Error: Input a,b(positive integers) again: ");
     scanf("%d %d", &a,&b);
 }
 
